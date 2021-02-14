@@ -13,6 +13,7 @@
 body {
   background: var(--preta);
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 header .container {
@@ -37,4 +38,50 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(#0006, #0000), url('/img/bg.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .container {
+  margin: 0 1rem;
+}
+
+.filme-principal .container .title {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .container .description {
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+
+.filme-principal .container .btn-group .btn {
+  background-color: #0008;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.filme-principal .container .btn-group .btn:hover {
+  background-color: #fff;
+  color: #0008;
+}
+
+.filme-principal .container .btn-group .btn i {
+  margin-right: 5px;
 }
