@@ -8,7 +8,7 @@
 
 ## :telescope: Overview
 
-![banner](https://i.imgur.com/WL43r3U.gif)
+![banner](https://i.imgur.com/C8yvwBK.png)
 
 [🏠 Homepage](https://github.com/AmauriOliveira/clone-netflix-DIO)
 Uma clone feito com objetivo de estudar CSS3
